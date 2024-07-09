@@ -25,7 +25,7 @@ async def photo_upload(id_meme: int, meme_photo: UploadFile, db: Session = Depen
 
     # Удаление файла из локального хранилища (storage)
     try:
-        os.remove(f"storage/user/meme_{id_meme}.png")
+        os.remove(f"storage/meme_{id_meme}.png")
     except FileNotFoundError:
         pass
     return photo_link_s3

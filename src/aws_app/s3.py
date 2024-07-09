@@ -13,7 +13,7 @@ endpoint_url_env = os.getenv('endpoint_url')
 bucket_name_env = os.getenv('bucket_name')
 
 
-s3_base_link = "https://7bdd6e9d-5639-4742-b439-36560b2a5ee9.selstorage.ru/"
+s3_base_link = os.getenv('s3_base_link')
 
 
 class S3Client:

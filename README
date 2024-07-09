@@ -1,6 +1,17 @@
 Инструкция по запуску локально:
 
-0) Вначале вставьте нужные данные в .env (данные для бд и данные для с3), либо вы можете написать мне в телеграмм (https://t.me/l_pka2)
+0) Вначале вставьте нужные данные в .env (данные для бд и данные для с3),
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DB=
+POSTGRES_HOST=
+POSTGRES_PORT=
+
+access_key=
+secret_key=
+endpoint_url=
+bucket_name=
+s3_base_link=
 
 1) Установите зависимости pip install -r requirements.txt
 2) Создайте базу данных (имя в .env) ну или замените данные
